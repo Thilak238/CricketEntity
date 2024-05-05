@@ -26,8 +26,14 @@ public class CricketController {
 	public CricketService cs;
 	
 	
-	@GetMapping
+	@GetMapping(value="/IPL")
 	public String welcome()
+	{
+		return "Welcome to IPL Cricket";
+	}
+	
+	@GetMapping
+	public String welcome1()
 	{
 		return "Welcome to IPL Cricket";
 	}
