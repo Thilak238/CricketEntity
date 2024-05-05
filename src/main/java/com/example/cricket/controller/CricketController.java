@@ -32,12 +32,6 @@ public class CricketController {
 		return "Welcome to IPL Cricket";
 	}
 	
-	@GetMapping
-	public String welcome1()
-	{
-		return "Welcome to IPL Cricket";
-	}
-	
 	@GetMapping(value="/getmembers")
 	public List<CricketEntity> getmembers()
 	{
