@@ -38,6 +38,13 @@ public class CricketController {
 		return "Welcome to International Cricket";
 	}
 	
+
+	@GetMapping(value="/domestic")
+	public String welcome12()
+	{
+		return "Welcome to domestic Cricket";
+	}
+	
 	@GetMapping(value="/getmembers")
 	public List<CricketEntity> getmembers()
 	{
