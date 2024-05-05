@@ -45,6 +45,12 @@ public class CricketController {
 		return "Welcome to domestic Cricket";
 	}
 	
+	@GetMapping(value="/ranjitrophy")
+	public String welcome13()
+	{
+		return "Welcome to ranji trophy Cricket";
+	}
+	
 	@GetMapping(value="/getmembers")
 	public List<CricketEntity> getmembers()
 	{
