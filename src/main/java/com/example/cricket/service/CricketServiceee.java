@@ -82,7 +82,7 @@ public class CricketServiceee implements CricketService{
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "Data deleted successfully";
+		return "Data deleted successfully123456789";
 	}
 	
 	@Override
