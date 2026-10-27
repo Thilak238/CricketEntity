@@ -29,7 +29,7 @@ public class CricketController {
 	@GetMapping(value="/IPL")
 	public String welcome()
 	{
-		return "Welcome to IPL Cricket";
+		return "Welcome to IPL Cricket 2026";
 	}
 
 	@GetMapping(value="/Intl")
